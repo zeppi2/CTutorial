@@ -13,5 +13,7 @@ int main() {
     printf("But, he did not like being %d\n", characterAge);
     
     // Using the respective format specifiers for the string and integer variables
+    
+    return 0;
   
  }
