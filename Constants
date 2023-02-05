@@ -4,12 +4,14 @@
 
 int main() {
 
-    const int num = 5; // CONST should go before declaring the data type
-    printf("%d\n", num);
-    num = 8;
-    printf("%d", num);
+    const int NUM = 5; // CONST should go before declaring the data type
+    printf("%d\n", NUM);
+    NUM = 8;
+    printf("%d", NUM);
 
     // the CONST will now give an error - as a reminder that there is a CONSTANT
+    
+    // It's also good practice to CAPITALIZE constant values 
     
     return 0;
   
