@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+    const int num = 5; // CONST should go before declaring the data type
+    printf("%d\n", num);
+    num = 8;
+    printf("%d", num);
+
+    // the CONST will now give an error - as a reminder that there is a CONSTANT
+    
+    return 0;
+  
+ }
