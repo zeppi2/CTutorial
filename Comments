@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h> // using math library
+
+
+int main() {
+
+    /*
+    printf("Comments are fun.");
+    
+    */
+   
+   /* This is a comment for multiple lines */
+   
+    return 0;
+  
+ }
