@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    char characterName[] = "John"; // letting C know that I want to store more than one character in this variable
+    int characterAge = 35;
+    printf("There was once man named %s\n", characterName);
+    printf("He was %d years old\n", characterAge);
+    
+    characterAge = 15;
+    printf("He really liked the name, %s\n", characterName);
+    printf("But, he did not like being %d\n", characterAge);
+    
+    // Using the respective format specifiers for the string and integer variables
+  
+ }
