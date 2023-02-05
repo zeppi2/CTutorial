@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    printf("%f\n", 5 + 4.5);
+    // Format specifier for floating value
+    // Usually adding an integer to a float will result in a float
+    
+    printf("%f", 5 / 4.0);
+ 
+    return 0;
+  
+ }
