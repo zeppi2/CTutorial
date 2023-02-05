@@ -3,9 +3,10 @@
 
 int main() {
 
-    printf("%d", 500);
-    // format specifier - this will print out the number that we specify
+    printf("My favorite %s is %d", "number", 500);
+    // format specifier - this will print out the string and number that we specify
     
     return 0;
   
  }
+
