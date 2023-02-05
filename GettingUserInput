@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+   int age;
+   printf("Enter your age: ");
+   // SCANF helps us get user input 
+   scanf("%d", &age);
+   // Putting & in front of the variable because it's a POINTER
+   printf("You are %d years old\n", age);
+   
+   double gpa; // DOUBLE for decimal value
+   printf("Enter your GPA: ");
+   scanf("%lf", &gpa);
+   // %lf is used for scanning a double, specifically
+   printf("Your GPA is %f\n", gpa); 
+   
+   /* This last part works when you comment out the first two parts */
+   char grade;
+   printf("Enter your grade: ");
+   scanf("%c", &grade);
+   // %c is used for scanning a character, specifically
+   printf("Your grade is a %c", grade);
+   
+  
+   return 0;
+  
+ }
