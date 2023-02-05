@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h> // using math library
+
+
+int main() {
+
+    printf("%f\n", pow(2, 3));
+    
+    // We need to print this out as a decimal value - so that's why we did %f
+    
+    printf("%f\n", ceil(36.674));
+    
+    // CEIL gives us the next highest number - AKA rounding up
+    
+    printf("%f\n", floor(15.321));
+    
+    // FLOOR gives us the next lowest number - AKA rounding down
+
+    return 0;
+  
+ }
