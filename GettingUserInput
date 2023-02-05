@@ -16,14 +16,7 @@ int main() {
    scanf("%lf", &gpa);
    // %lf is used for scanning a double, specifically
    printf("Your GPA is %f\n", gpa); 
-   
-   /* This last part works when you comment out the first two parts */
-   char grade;
-   printf("Enter your grade: ");
-   scanf("%c", &grade);
-   // %c is used for scanning a character, specifically
-   printf("Your grade is a %c", grade);
-   
+
   
    return 0;
   
