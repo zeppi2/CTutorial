@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    printf("%d", 500);
+    // format specifier - this will print out the number that we specify
+    
+    return 0;
+  
+ }
