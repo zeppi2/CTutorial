@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    char phrase[] = "String";
+    
+    // This is a special data type that can act differently from the others - int, double, & char
+    
+    // We are making an array - and it's how we make a string of characters
+    
+    return 0;
+  
+ }
